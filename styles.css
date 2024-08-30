@@ -232,6 +232,12 @@ input{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    cursor: pointer;
+    
+}
+
+.ligne p:hover{
+    color: goldenrod;
 }
 .lastpage h1{
     font-size: 30px;
@@ -301,6 +307,12 @@ input{
         flex-direction: column;
         justify-content: space-around;
     }
+    .projectcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
 }
 .requestpage{
     background-color: white;
